@@ -13,7 +13,7 @@ The wildchat data is collected from [wildchat](https://huggingface.co/datasets/a
 ## pretrain
 pretrain.py: 
 ```
-python pretrain.py [--base_model roberta-base] [--train_file ./data/wildchat.csv] [--mlm_ratio 0.15] [--batch_size 60] [--epochs 3] [--query_only False] [--output output_dir]
+python pretrain.py [--base_model roberta-base] [--train_file ./data/wildchat_pretrain.csv] [--mlm_ratio 0.15] [--batch_size 60] [--epochs 3] [--query_only False] [--output output_dir]
 ```
 
 ## finetune 
